@@ -1,5 +1,6 @@
 let Graus = 0
 input.onButtonPressed(Button.A, function () {
+    input.calibrateCompass()
     Graus = input.compassHeading()
 })
 basic.forever(function () {
